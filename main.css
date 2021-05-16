@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-    background: url('https://www.caf.net/upload/productos/6_tranvia_budapest.jpg') no-repeat center fixed;
+    background: url('assets/river-2136978.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -10,11 +10,12 @@ body {
     height: 100vh;
 }
 .profile-card {
-    background-color: rgb(36, 143, 143, .83);
-    box-shadow: hsla(0, 0%, 0%, .8) 0rem 0rem 3rem;
-    width: 55rem;
-    height: 27rem;
-    border-radius: 40px;
+    background-color: rgb(0, 0, 0, 0.80);
+    color: rgb(255, 123, 0);
+    box-shadow: rgb(241, 232, 101) -0.8rem -0.8rem 1.7rem;
+    width: 50rem;
+    height: 27.5rem;
+    border-radius: 55px;
     border-style: dotted;
     border-width: .25rem;
     border-color: lightgray;
@@ -33,7 +34,7 @@ img {
 }
 .name-headline {
     text-align: center;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Days One', sans-serif;
     margin-top: 5rem;
     width: 67%;
     height: 67%;
@@ -41,13 +42,13 @@ img {
     position: absolute;
 }
 .contact {
-    margin: 0% 10%;
-    margin-top: 22rem;
+    margin: 0% 19%;
+    margin-top: 21.5rem;
     position: absolute;
 }
 .fa-linkedin, .fa-github-square, .fa-facebook-official {
-    margin-left: 1rem;
-    color: rgb(61, 61, 92);
+    margin-left: 1.5rem;
+    color: rgb(175, 175, 175);
 }
 /* Fonts options */
 h1 {
